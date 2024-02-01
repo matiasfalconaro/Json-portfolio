@@ -1,0 +1,187 @@
+{
+    "basics": {
+      "name": "Matias Falconaro",
+      "label": "Software Developer",
+      "image": "/foto_perfil.jpg",
+      "email": "matiasfalconaro@gmail.com",
+      "phone": "(011) 15-3271-1841",
+      "url": "https://mfalconaro.dev",
+      "summary": "",
+      "location": {
+        "address": "Urquiza 442",
+        "postalCode": "B1842EJJ",
+        "city": "Monte Grande",
+        "countryCode": "Argentina",
+        "region": "Buenos Aires"
+      },
+      "profiles": [{
+        "network": "GitHub",
+        "username": "matiasfalconaro",
+        "url": "https://github.com/matiasfalconaro"
+      }]
+    },
+    "work": [
+      {
+      "name": "Etex Group Argentina",
+      "position": "SAP Base Line Support",
+      "url": "https://www.etexgroup.com/es-ar/",
+      "startDate": "2013-11-01",
+      "endDate": "2014-12-01",
+      "summary": "Create business solutions designed for senior executives and directors. Optimized stock and production management systems.",
+      "highlights": [
+        "Started the SAP PM module implementation."
+        ]
+      },
+      {
+        "name": "Pilcomayo SRL",
+        "position": "Systems Manager",
+        "url": "https://b2argentina.com.ar/hotsite/pilcomayosrl/details",
+        "startDate": "2015-01-01",
+        "endDate": "2022-02-01",
+        "summary": "Assisted SAP PM Module implementation in Laboratory. Streamlined configuration and resource allocation processes.",
+        "highlights": [
+          "Systems maintenance, update and implementation"
+          ]
+        },
+        {
+          "name": "Freelance web developer",
+          "position": "Jr.FS Developer",
+          "url": "",
+          "startDate": "2018-12-01",
+          "endDate": "2023-12-01",
+          "summary": "Developed and maintained web pages, focusing on enterprises. Leveraged Python for backend development and Flask framework for web application interfaces.",
+          "highlights": [
+            "Commercial landing pages development, deployment, hosting, maintenance and improvement"
+            ]
+          },
+          {
+            "name": "Baitcon SA",
+            "position": "Python FS Developer",
+            "url": "https://www.baitcon.com/",
+            "startDate": "2022-12-01",
+            "endDate": "present",
+            "summary": "Associate Python Developer focusing on the SAP landscape. Integrated DevOps practices, enhancing the efficiency of application releases.",
+            "highlights": [
+              "Corporate software, automation and pipelining factory"
+              ]
+            }
+    ],
+    "education": [
+      {
+        "institution": "UTN - Universidad Tecnologica Nacional",
+        "url": "https://utn.edu.ar/es/",
+        "area": "Data Engineering",
+        "studyType": "Diploma",
+        "startDate": "2023-10-01",
+        "endDate": "2014-06-01",
+        "score": "100.00",
+        "courses": [
+          "999190962 - Python 3 - Introduction",
+          "999190964 - Python 3 - Intermediate",
+          "999190966 - Python 3 - Advanced"
+        ]
+      },
+      {
+      "institution": "UTN - Universidad Tecnologica Nacional",
+      "url": "https://utn.edu.ar/es/",
+      "area": "Python Development",
+      "studyType": "Diploma",
+      "startDate": "2023-10-01",
+      "endDate": "2014-06-01",
+      "score": "100.00",
+      "courses": [
+        "999190962 - Python 3 - Introduction",
+        "999190964 - Python 3 - Intermediate",
+        "999190966 - Python 3 - Advanced"
+      ]
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "skills": [
+      {
+        "name": "Front-End Development",
+        "level": "Senior",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ]
+      },
+      {
+        "name": "Back-End Development",
+        "level": "Senior",
+        "keywords": [
+          "Python",
+          "SQLAlchemy",
+          "Flask"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "Senior",
+        "keywords": [
+          "PostgreSQL",
+          "MongoDB",
+          "SQLite3",
+          "SAP HANA"
+        ]
+      },
+      {
+        "name": "Systems management",
+        "level": "Senior",
+        "keywords": [
+          "linux",
+          "Git",
+          "GitHub",
+          "Bash Scripting"
+        ]
+      },
+      {
+        "name": "Cloud Computing",
+        "level": "Senior",
+        "keywords": [
+          "AWS",
+          "SAP BTP",
+          "Docker",
+          "CloudFoundry",
+          "Azure DevOps"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native Speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional completion"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }
