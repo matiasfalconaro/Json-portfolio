@@ -1,36 +1,53 @@
 {
     "basics": {
       "name": "Matias Falconaro",
-      "label": "Software Developer",
+      "label": "Software Developer foused on building cloud Back-End solutions",
       "image": "/foto_perfil.jpg",
       "email": "matiasfalconaro@gmail.com",
       "phone": "(011) 15-3271-1841",
       "url": "https://mfalconaro.dev",
-      "summary": "",
+      "summary": "Boasting over 3 years of experience in full stack development with a specialized focus on backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud integrations. Committed to lifelong learning, I'm currently deepening my expertise in Data Engineering.",
       "location": {
         "address": "Urquiza 442",
         "postalCode": "B1842EJJ",
         "city": "Monte Grande",
-        "countryCode": "Argentina",
+        "countryCode": "AR",
         "region": "Buenos Aires"
       },
-      "profiles": [{
-        "network": "GitHub",
-        "username": "matiasfalconaro",
-        "url": "https://github.com/matiasfalconaro"
-      }]
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "matiasfalconaro",
+          "url": "https://github.com/matiasfalconaro"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "midudev",
+          "url": "https://linkedin.com/in/matiasfalconaro"
+        }]
     },
     "work": [
       {
-      "name": "Etex Group Argentina",
-      "position": "SAP Base Line Support",
-      "url": "https://www.etexgroup.com/es-ar/",
-      "startDate": "2013-11-01",
-      "endDate": "2014-12-01",
-      "summary": "Create business solutions designed for senior executives and directors. Optimized stock and production management systems.",
-      "highlights": [
-        "Started the SAP PM module implementation."
-        ]
+        "name": "Baitcon SA",
+        "position": "Python FS Developer",
+        "url": "https://www.baitcon.com/",
+        "startDate": "2022-12-01",
+        "endDate": null,
+        "summary": "Python Developer focusing on the SAP landscape. Developed and integrated DevOps, enhancing the efficiency of applications.",
+        "highlights": [
+          "Corporate software, automation and pipelining factory"
+          ]
+      },
+      {
+        "name": "Freelance web developer",
+        "position": "Jr.FS Developer",
+        "url": null,
+        "startDate": "2018-12-01",
+        "endDate": "2023-12-01",
+        "summary": "Developed and maintained web pages, focusing on enterprises. Leveraged Python for backend development and Flask framework for web application interfaces.",
+        "highlights": [
+          "Commercial landing pages development, deployment, hosting, maintenance and improvement"
+          ]
       },
       {
         "name": "Pilcomayo SRL",
@@ -43,28 +60,17 @@
           "Systems maintenance, update and implementation"
           ]
         },
-        {
-          "name": "Freelance web developer",
-          "position": "Jr.FS Developer",
-          "url": "",
-          "startDate": "2018-12-01",
-          "endDate": "2023-12-01",
-          "summary": "Developed and maintained web pages, focusing on enterprises. Leveraged Python for backend development and Flask framework for web application interfaces.",
-          "highlights": [
-            "Commercial landing pages development, deployment, hosting, maintenance and improvement"
-            ]
-          },
-          {
-            "name": "Baitcon SA",
-            "position": "Python FS Developer",
-            "url": "https://www.baitcon.com/",
-            "startDate": "2022-12-01",
-            "endDate": "present",
-            "summary": "Associate Python Developer focusing on the SAP landscape. Integrated DevOps practices, enhancing the efficiency of application releases.",
-            "highlights": [
-              "Corporate software, automation and pipelining factory"
-              ]
-            }
+      {
+      "name": "Etex Group Argentina",
+      "position": "SAP Base Line Support",
+      "url": "https://www.etexgroup.com/es-ar/",
+      "startDate": "2013-11-01",
+      "endDate": "2014-12-01",
+      "summary": "Create business solutions designed for senior executives and directors. Optimized stock and production management systems.",
+      "highlights": [
+        "Started the SAP PM module implementation."
+        ]
+      }
     ],
     "education": [
       {
@@ -104,7 +110,7 @@
     "skills": [
       {
         "name": "Front-End Development",
-        "level": "Senior",
+        "level": "Advanced",
         "keywords": [
           "HTML",
           "CSS",
@@ -114,7 +120,7 @@
       },
       {
         "name": "Back-End Development",
-        "level": "Senior",
+        "level": "Advanced",
         "keywords": [
           "Python",
           "SQLAlchemy",
@@ -123,7 +129,7 @@
       },
       {
         "name": "Database",
-        "level": "Senior",
+        "level": "Advanced",
         "keywords": [
           "PostgreSQL",
           "MongoDB",
@@ -133,7 +139,7 @@
       },
       {
         "name": "Systems management",
-        "level": "Senior",
+        "level": "Intermediate",
         "keywords": [
           "linux",
           "Git",
@@ -143,7 +149,7 @@
       },
       {
         "name": "Cloud Computing",
-        "level": "Senior",
+        "level": "Advanced",
         "keywords": [
           "AWS",
           "SAP BTP",
@@ -174,14 +180,107 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+    "projects": [
+      {
+        "name": "Tkinter expense manager",
+        "role": "Lead",
+        "isActive": true,
+        "description": "Expense management CRUD desktop software",
+        "highlights": [
+          "Python",
+          "Data",
+          "Desktop",
+          "SQLite3"
+        ],
+        "url": "https://project.com/",
+        "github": ""
+    },
+    {
+      "name": "Corporate Investment Management App",
+      "role": "Lead",
+      "isActive": true,
+      "description": "Cloud application to enable bulk data import, process and management of engineering project data",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "SAP HANA",
+        "SAP BTP",
+        "Python",
+        "Flask",
+        "Cloud"
       ],
-      "url": "https://project.com/"
-    }]
+      "url": "https://project.com/",
+      "github": ""
+    },
+    {
+      "name": "SAP HANA-API ETL pipeline",
+      "role": "Associate",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "API",
+        "SAP HANA",
+        "Python",
+        "GIS",
+        "GEOJSON",
+        "Pandas"
+      ],
+      "url": "https://project.com/",
+      "github": ""
+    },
+    {
+      "name": "Corporate Presidency Management App",
+      "role": "Associate",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "API",
+        "SAP HANA",
+        "Flask",
+        "SQLAlchemy"
+      ],
+      "url": "https://project.com/",
+      "github": ""
+    },
+    {
+      "name": "Corporate Presidency Management App",
+      "role": "Associate",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "API",
+        "SAP HANA",
+        "Flask",
+        "SQLAlchemy"
+      ],
+      "url": "https://project.com/",
+      "github": ""
+    },
+    {
+      "name": "Chat AWS",
+      "role": "Lead",
+      "isActive": false,
+      "description": "Cloud Python App that utilizes OpenAI's model APIs. Make queries using natural language and retrieve data from a database.",
+      "highlights": [
+        "API",
+        "AWS",
+        "PostgreSQL",
+        "OpenAI",
+        "ChatGpt"
+      ],
+      "url": "https://project.com/",
+      "github": ""
+    },
+    {
+      "name": "React Cloud Portfolio",
+      "role": "Lead",
+      "isActive": false,
+      "description": "Cloud personal portfolio using React and Next.JS",
+      "highlights": [
+        "React",
+        "Next.JS",
+        "AWS"
+      ],
+      "url": "https://project.com/",
+      "github": ""
+    }
+  ]
   }
