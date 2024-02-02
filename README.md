@@ -2,7 +2,7 @@
 
 Simple web app that renders minimalist CV with print-friendly layout.
 
-Built with Astro and TypeScript and NinjaKeys.
+Built with Astro, TypeScript and NinjaKeys.
 
 # View
 
