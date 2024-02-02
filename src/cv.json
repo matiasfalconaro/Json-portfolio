@@ -4,9 +4,9 @@
       "label": "Software Developer foused on building cloud Back-End solutions",
       "image": "/foto_perfil.jpg",
       "email": "matiasfalconaro@gmail.com",
-      "phone": "(011) 15-3271-1841",
+      "phone": "=54 9 (011) 15-3271-1841",
       "url": "https://mfalconaro.dev",
-      "summary": "Boasting over 3 years of experience in full stack development with a specialized focus on backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud integrations. Committed to lifelong learning, I'm currently deepening my expertise in Data Engineering.",
+      "summary": "As a full stack developer I am specialized on backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud integrations. Committed to lifelong learning, I'm currently deepening my expertise in Data Engineering.",
       "location": {
         "address": "Urquiza 442",
         "postalCode": "B1842EJJ",
@@ -33,7 +33,7 @@
         "url": "https://www.baitcon.com/",
         "startDate": "2022-12-01",
         "endDate": null,
-        "summary": "Python Developer focusing on the SAP landscape. Developed and integrated DevOps, enhancing the efficiency of applications.",
+        "summary": "Developed data management applications on the SAP cloud landscape. Integrated DevOps, enhancing the efficiency of applications.",
         "highlights": [
           "Corporate software, automation and pipelining factory"
           ]
@@ -55,7 +55,7 @@
         "url": "https://b2argentina.com.ar/hotsite/pilcomayosrl/details",
         "startDate": "2015-01-01",
         "endDate": "2022-02-01",
-        "summary": "Assisted SAP PM Module implementation in Laboratory. Streamlined configuration and resource allocation processes.",
+        "summary": "Create business solutions designed for senior executives and directors. Optimized stock and production management systems.",
         "highlights": [
           "Systems maintenance, update and implementation"
           ]
@@ -66,7 +66,7 @@
       "url": "https://www.etexgroup.com/es-ar/",
       "startDate": "2013-11-01",
       "endDate": "2014-12-01",
-      "summary": "Create business solutions designed for senior executives and directors. Optimized stock and production management systems.",
+      "summary": "Assisted SAP PM Module implementation in Laboratory. Streamlined configuration and resource allocation processes.",
       "highlights": [
         "Started the SAP PM module implementation."
         ]
@@ -78,8 +78,8 @@
         "url": "https://utn.edu.ar/es/",
         "area": "Data Engineering",
         "studyType": "Diploma",
-        "startDate": "2023-10-01",
-        "endDate": "2014-06-01",
+        "startDate": "2024-10-01",
+        "endDate": "2024-06-01",
         "score": "100.00",
         "courses": [
           "999190962 - Python 3 - Introduction",
@@ -93,7 +93,7 @@
       "area": "Python Development",
       "studyType": "Diploma",
       "startDate": "2023-10-01",
-      "endDate": "2014-06-01",
+      "endDate": "2024-06-01",
       "score": "100.00",
       "courses": [
         "999190962 - Python 3 - Introduction",
@@ -182,24 +182,24 @@
     }],
     "projects": [
       {
-        "name": "Tkinter expense manager",
+        "name": "Expense manager",
         "role": "Lead",
         "isActive": true,
-        "description": "Expense management CRUD desktop software",
+        "description": "Desktop CRUD application for managing, tracking, exporting, and visually analyzing financial transactions including expenses and revenues.",
         "highlights": [
           "Python",
           "Data",
           "Desktop",
           "SQLite3"
         ],
-        "url": "https://project.com/",
-        "github": ""
+        "url": null,
+        "github": "https://github.com/matiasfalconaro/Tkinter_expense_manager"
     },
     {
-      "name": "Corporate Investment Management App",
+      "name": "Investment App",
       "role": "Lead",
       "isActive": true,
-      "description": "Cloud application to enable bulk data import, process and management of engineering project data",
+      "description": "Cloud-based application for mass data import, processing, and management of engineering project investment data, integrated for use with SAP Analytics Cloud.",
       "highlights": [
         "SAP HANA",
         "SAP BTP",
@@ -211,10 +211,10 @@
       "github": ""
     },
     {
-      "name": "SAP HANA-API ETL pipeline",
+      "name": "GIS ETL pipeline",
       "role": "Associate",
       "isActive": true,
-      "description": "",
+      "description": "Back-end system to retrieve data from a database and GEOJSON files, process it, and compile into JSON files for geographic project information.",
       "highlights": [
         "API",
         "SAP HANA",
@@ -227,10 +227,10 @@
       "github": ""
     },
     {
-      "name": "Corporate Presidency Management App",
+      "name": "Direction mgmt. App",
       "role": "Associate",
       "isActive": true,
-      "description": "",
+      "description": "Cloud platform for managing the import, export, and monitoring of engineering projects within a corporate enterprise's presidency.",
       "highlights": [
         "API",
         "SAP HANA",
@@ -241,15 +241,15 @@
       "github": ""
     },
     {
-      "name": "Corporate Presidency Management App",
+      "name": "DBs ETL Pipeline",
       "role": "Associate",
       "isActive": true,
-      "description": "",
+      "description": "Executable ETL pipeline for extracting, processing, validating, and transferring data from an on-premise Oracle DB to a SAP HANA Cloud DB.",
       "highlights": [
-        "API",
         "SAP HANA",
-        "Flask",
-        "SQLAlchemy"
+        "SQLAlchemy",
+        "SQL Server",
+        "Automation"
       ],
       "url": "https://project.com/",
       "github": ""
@@ -258,26 +258,13 @@
       "name": "Chat AWS",
       "role": "Lead",
       "isActive": false,
-      "description": "Cloud Python App that utilizes OpenAI's model APIs. Make queries using natural language and retrieve data from a database.",
+      "description": "Cloud Python application leveraging OpenAI's API models for natural language queries to fetch data from a database.",
       "highlights": [
         "API",
         "AWS",
         "PostgreSQL",
         "OpenAI",
         "ChatGpt"
-      ],
-      "url": "https://project.com/",
-      "github": ""
-    },
-    {
-      "name": "React Cloud Portfolio",
-      "role": "Lead",
-      "isActive": false,
-      "description": "Cloud personal portfolio using React and Next.JS",
-      "highlights": [
-        "React",
-        "Next.JS",
-        "AWS"
       ],
       "url": "https://project.com/",
       "github": ""
