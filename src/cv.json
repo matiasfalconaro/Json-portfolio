@@ -207,7 +207,7 @@
         "Flask",
         "Cloud"
       ],
-      "url": "https://project.com/",
+      "url": null,
       "github": ""
     },
     {
@@ -223,7 +223,7 @@
         "GEOJSON",
         "Pandas"
       ],
-      "url": "https://project.com/",
+      "url": null,
       "github": ""
     },
     {
@@ -237,7 +237,7 @@
         "Flask",
         "SQLAlchemy"
       ],
-      "url": "https://project.com/",
+      "url": null,
       "github": ""
     },
     {
@@ -251,7 +251,7 @@
         "SQL Server",
         "Automation"
       ],
-      "url": "https://project.com/",
+      "url": null,
       "github": ""
     },
     {
@@ -266,7 +266,7 @@
         "OpenAI",
         "ChatGpt"
       ],
-      "url": "https://project.com/",
+      "url": null,
       "github": ""
     }
   ]
