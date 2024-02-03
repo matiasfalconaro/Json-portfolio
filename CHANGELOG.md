@@ -20,7 +20,7 @@ Version numbers follow this convention:
   - Fixed: fix issues that may span over the complete project.
   - Changed: existing features which have undergone some improvements.
 
-## [v1.0.0] - [MVP] 2024-02-02
+## [v1.0.0] - [MVP] 2024-02-03
 ### Added
 - Structure layout. (#1)
 - Implement JSON schema. (#3)
@@ -30,4 +30,4 @@ Version numbers follow this convention:
 - Create CHANGELOG (#11)
 
 ### Changed
-- Update README v1.0.0 (#)
+- Update README v1.0.0 (#13)

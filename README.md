@@ -1,12 +1,19 @@
 # JSON Portfolio
+**Personal web resume**
 
 Simple web app that renders minimalist CV with print-friendly layout.
 
-Built with Astro, TypeScript and NinjaKeys.
+Built with Astro, TypeScript and NinjaKeys. Deployed to AWS.
 
 ## View
 
-![Alt text](./public/json_portfolio.drawio.png?raw=true "Title")
+![Page](./public/json_portfolio.drawio.png?raw=true "Title")
+
+## Cloud hosting
+
+**AWS**
+
+S3 Instance
 
 ### Acknowledgement
 
