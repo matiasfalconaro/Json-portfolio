@@ -1,8 +1,9 @@
 {
   "name": "json-portfolio",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
+    "deploy": "npm run build && aws s3 sync ./dist s3://web-server-004-dev-s3",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
