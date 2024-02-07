@@ -19,13 +19,13 @@ Built with Astro, TypeScript and NinjaKeys. Deployed to AWS.
 
 ## View
 
-![Page](./public/json_portfolio.drawio.png?raw=true "Title")
+![Page](./public/portfolio_view.drawio.svg?raw=true "Title")
 
 ## Cloud hosting
 
 **AWS** - S3 Instance
 
-Dev-url: `http://web-server-004-dev-s3.s3.us-east-2.amazonaws.com/index.html`
+![Portfolio cloud architecture](./public/portfolio_architecture.drawio.svg?raw=true "Title")
 
 ### Acknowledgement
 
