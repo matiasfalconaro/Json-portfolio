@@ -6,6 +6,7 @@ import LinkedIn from '@/icons/LinkedIn.astro'
 import Mail from '@/icons/Mail.astro'
 import Phone from '@/icons/Phone.astro'
 import WorldMap from '@/icons/WorldMap.astro'
+import PdfIcon from '@/icons/pdf.astro'
 
 const { name, label, image, location, profiles, phone, email} = basics
 const { city, region, countryCode } = location
@@ -75,6 +76,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
                     })
                 }
             </footer>
+            <a 
+                href="/portfolio.pdf" // Update this to your PDF's URL
+                title={`Download PDF version of ${name}'s portfolio`}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <PdfIcon />
+            </a>
         </div>
         <figure>
             <img src={image} alt={name} />
@@ -131,6 +140,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       display: flex;
       gap: 4px;
       margin-top: 8px;
+      margin-bottom: 8px;
     }
   
     footer a {
