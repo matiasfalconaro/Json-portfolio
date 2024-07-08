@@ -5,9 +5,17 @@ import { basics } from "@cv"
 const { summary } = basics
 ---
 
-<Section title="About">
+<Section>
+    <h2>About</h2>
     <p>
         {summary}
     </p>
 </Section>
 
+<style>
+    h2 {
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--h2-color);
+    }
+</style>

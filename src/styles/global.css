@@ -1,0 +1,44 @@
+/*global.css */
+:root {
+    --background-color: #fff;
+    --h2-color: #222;
+    --h3-color: #444;
+    --h4-color: #111;
+    --text-color: #666;
+    --heading-color: #111;
+    --a-color: #777;
+    --project-a-color: #111;
+    --time-color: #555;
+    --button-bg-color: #000;
+    --button-color: #fff;
+    --li-bg-color: #333;
+    --li-text-color: #eee;
+    --button-hover-bg-color: #333;
+    --border-color: #000;
+    --footer-span-bg-color: #111;
+    --footer-span-text-color: #eee;
+    --kbd-bg-color: #e0e0e0; /* Updated light background */
+    --kbd-text-color: #000; /* Updated light text */
+  }
+  
+  [data-theme="dark"] {
+    --background-color: #000;
+    --h2-color: #fff;
+    --h3-color: #eee;
+    --h4-color: #ddd;
+    --text-color: #fff;
+    --heading-color: #eee;
+    --a-color: #eee;
+    --project-a-color: #eee;
+    --time-color: #ccc;
+    --button-bg-color: #fff;
+    --button-color: #000;
+    --li-bg-color: #ccc;
+    --li-text-color: #111;
+    --button-hover-bg-color: #ccc;
+    --border-color: #fff;
+    --footer-span-bg-color: #eee;
+    --footer-span-text-color: #111;
+    --kbd-bg-color: #444; /* Updated dark background */
+    --kbd-text-color: #fff; /* Updated dark text */
+  }

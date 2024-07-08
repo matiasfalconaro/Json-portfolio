@@ -4,7 +4,8 @@ import Section from "../section.astro";
 import { skills } from "@cv"
 ---
 
-<Section title="Skills">
+<Section>
+    <h2>Skills</h2>
     <ul>
         {
             skills.flatMap(skill => skill.keywords.map((keyword, index) => (
@@ -17,6 +18,12 @@ import { skills } from "@cv"
 </Section>
 
 <style>
+    h2 {
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--h2-color);
+    }
+
     ul {
         display: inline-flex;
         gap: 8px;
@@ -28,8 +35,8 @@ import { skills } from "@cv"
 
     li {
         border-radius: 6px;
-        background: #333;
-        color: #eee;
+        background: var(--li-bg-color);
+        color: var(--li-text-color);
         font-size: 0.8rem;
         font-weight: 600;
         padding: 0.2rem 0.6rem;
