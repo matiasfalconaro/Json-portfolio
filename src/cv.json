@@ -1,14 +1,14 @@
 {
     "basics": {
       "name": "Matias Falconaro",
-      "label": "Software Developer foused on building cloud Back-End solutions",
+      "label": "Software Developer",
       "image": "/profile_pic.drawio.svg",
       "email": "matiasfalconaro@gmail.com",
       "phone": "54 9 (011) 15-3271-1841",
-      "url": "https://mfalconaro.dev",
-      "summary": "As a software developer I am specialized on cloud backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud pipelines integrations between different platforms. Committed to lifelong learning, I'm currently deepening my expertise in Data Engineering.",
+      "url": "https://www.mfalconaro.dev",
+      "summary": "As a software developer I am specialized on cloud backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud pipelines integrations between different platforms.",
       "location": {
-        "address": "Urquiza 442",
+        "address": "Street 123",
         "postalCode": "B1842EJJ",
         "city": "Monte Grande",
         "countryCode": "AR",
@@ -29,7 +29,7 @@
     "work": [
       {
         "name": "Baitcon SA",
-        "position": "Python FS Developer",
+        "position": "Python Developer",
         "url": "https://www.baitcon.com/",
         "startDate": "2022-12-01",
         "endDate": null,
@@ -74,18 +74,13 @@
     ],
     "education": [
       {
-        "institution": "UTN - Universidad Tecnologica Nacional",
-        "url": "https://utn.edu.ar/es/",
-        "area": "Data Engineering",
-        "studyType": "Diploma",
-        "startDate": "2024-10-01",
-        "endDate": "2024-06-01",
-        "score": "100.00",
-        "courses": [
-          "999190962 - Python 3 - Introduction",
-          "999190964 - Python 3 - Intermediate",
-          "999190966 - Python 3 - Advanced"
-        ]
+        "institution": "UP - Universidad de Palermo",
+        "url": "https://up.edu.ar/es/",
+        "area": "Computer Engineering",
+        "studyType": "Bachelor Degree",
+        "startDate": "2023-03-01",
+        "endDate": null,
+        "score": null
       },
       {
       "institution": "UTN - Universidad Tecnologica Nacional",
@@ -102,10 +97,10 @@
       ]
     }],
     "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "Python Diploma",
+      "date": "2024-06-01",
+      "issuer": "Universidad Tecnologica Nacional",
+      "url": null
     }],
     "skills": [
       {
@@ -154,8 +149,7 @@
           "AWS",
           "SAP BTP",
           "Docker",
-          "CloudFoundry",
-          "Azure DevOps"
+          "CloudFoundry"
         ]
       }
     ],
@@ -170,15 +164,15 @@
       }
     ],
     "interests": [{
-      "name": "Wildlife",
+      "name": null,
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        null,
+        null
       ]
     }],
     "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": null,
+      "reference": null
     }],
     "projects": [
       {
@@ -208,7 +202,7 @@
         "Cloud"
       ],
       "url": null,
-      "github": ""
+      "github": null
     },
     {
       "name": "GIS ETL pipeline",
@@ -224,7 +218,7 @@
         "Pandas"
       ],
       "url": null,
-      "github": ""
+      "github": null
     },
     {
       "name": "Direction mgmt. App",
@@ -238,7 +232,7 @@
         "SQLAlchemy"
       ],
       "url": null,
-      "github": ""
+      "github": null
     },
     {
       "name": "DBs ETL Pipeline",
@@ -252,7 +246,7 @@
         "Automation"
       ],
       "url": null,
-      "github": ""
+      "github": null
     },
     {
       "name": "Chat AWS",
@@ -267,7 +261,8 @@
         "ChatGpt"
       ],
       "url": null,
-      "github": ""
+      "github": null
     }
   ]
   }
+  
