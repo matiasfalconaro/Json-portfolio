@@ -9,19 +9,21 @@ export const props = {}
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const checkbox = document.getElementById('theme-checkbox');
+    const checkbox = document.getElementById('theme-checkbox') as HTMLInputElement | null;
     const currentTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', currentTheme);
 
-    if (currentTheme === 'dark') {
-      checkbox.checked = true;
-    }
+    if (checkbox) {
+      if (currentTheme === 'dark') {
+        checkbox.checked = true;
+      }
 
-    checkbox.addEventListener('change', () => {
-      const newTheme = checkbox.checked ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', newTheme);
-      localStorage.setItem('theme', newTheme);
-    });
+      checkbox.addEventListener('change', () => {
+        const newTheme = checkbox.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    }
   });
 </script>
 
