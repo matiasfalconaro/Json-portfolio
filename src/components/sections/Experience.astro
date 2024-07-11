@@ -4,12 +4,11 @@ import Section from "../section.astro"
 import { work } from "@cv"
 ---
 
-<Section>
-  <h2>Experience</h2>
+<Section title="Experience">
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, url }) => {
+        ({ name, startDate, endDate, position, summary, highlights, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Present"
@@ -53,19 +52,13 @@ import { work } from "@cv"
     margin-left: 0;
   }
 
-  h2 {
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--h2-color);
-  }
-
   article h3 {
     font-weight: 500;
-    color: var(--h3-color);
+    color: #111;
   }
 
   article a {
-    color: var(--a-color);
+    color: #111;
   }
 
   article a:hover {
@@ -73,7 +66,7 @@ import { work } from "@cv"
   }
 
   article h4 {
-    color: var(--h4-color);
+    color: #222;
     font-weight: 400;
   }
 
@@ -85,7 +78,7 @@ import { work } from "@cv"
   }
 
   time {
-    color: var(--time-color);
+    color: #555;
     font-size: 0.85rem;
     min-width: 102px;
   }

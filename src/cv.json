@@ -1,14 +1,14 @@
 {
     "basics": {
       "name": "Matias Falconaro",
-      "label": "Software Developer",
+      "label": "Software Developer foused on building cloud Back-End solutions",
       "image": "/profile_pic.drawio.svg",
       "email": "matiasfalconaro@gmail.com",
-      "phone": "54 9 (011) 15-3271-1841",
-      "url": "https://www.mfalconaro.dev",
-      "summary": "As a software developer I am specialized on cloud backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud pipelines integrations between different platforms.",
+      "phone": "=54 9 (011) 15-3271-1841",
+      "url": "https://mfalconaro.dev",
+      "summary": "As a software developer I am specialized on cloud backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud pipelines integrations between different platforms. Committed to lifelong learning, I'm currently deepening my expertise in Data Engineering.",
       "location": {
-        "address": "Street 123",
+        "address": "Urquiza 442",
         "postalCode": "B1842EJJ",
         "city": "Monte Grande",
         "countryCode": "AR",
@@ -29,7 +29,7 @@
     "work": [
       {
         "name": "Baitcon SA",
-        "position": "Python Developer",
+        "position": "Python FS Developer",
         "url": "https://www.baitcon.com/",
         "startDate": "2022-12-01",
         "endDate": null,
@@ -74,13 +74,18 @@
     ],
     "education": [
       {
-        "institution": "UP - Universidad de Palermo",
-        "url": "https://up.edu.ar/es/",
-        "area": "Computer Engineering",
-        "studyType": "Bachelor Degree",
-        "startDate": "2023-03-01",
-        "endDate": null,
-        "score": null
+        "institution": "UTN - Universidad Tecnologica Nacional",
+        "url": "https://utn.edu.ar/es/",
+        "area": "Data Engineering",
+        "studyType": "Diploma",
+        "startDate": "2024-10-01",
+        "endDate": "2024-06-01",
+        "score": "100.00",
+        "courses": [
+          "999190962 - Python 3 - Introduction",
+          "999190964 - Python 3 - Intermediate",
+          "999190966 - Python 3 - Advanced"
+        ]
       },
       {
       "institution": "UTN - Universidad Tecnologica Nacional",
@@ -97,10 +102,10 @@
       ]
     }],
     "certificates": [{
-      "name": "Python Diploma",
-      "date": "2024-06-01",
-      "issuer": "Universidad Tecnologica Nacional",
-      "url": null
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
     }],
     "skills": [
       {
@@ -149,7 +154,8 @@
           "AWS",
           "SAP BTP",
           "Docker",
-          "CloudFoundry"
+          "CloudFoundry",
+          "Azure DevOps"
         ]
       }
     ],
@@ -164,15 +170,15 @@
       }
     ],
     "interests": [{
-      "name": null,
+      "name": "Wildlife",
       "keywords": [
-        null,
-        null
+        "Ferrets",
+        "Unicorns"
       ]
     }],
     "references": [{
-      "name": null,
-      "reference": null
+      "name": "Jane Doe",
+      "reference": "Reference…"
     }],
     "projects": [
       {
@@ -202,7 +208,7 @@
         "Cloud"
       ],
       "url": null,
-      "github": null
+      "github": ""
     },
     {
       "name": "GIS ETL pipeline",
@@ -218,7 +224,7 @@
         "Pandas"
       ],
       "url": null,
-      "github": null
+      "github": ""
     },
     {
       "name": "Direction mgmt. App",
@@ -232,7 +238,7 @@
         "SQLAlchemy"
       ],
       "url": null,
-      "github": null
+      "github": ""
     },
     {
       "name": "DBs ETL Pipeline",
@@ -246,7 +252,7 @@
         "Automation"
       ],
       "url": null,
-      "github": null
+      "github": ""
     },
     {
       "name": "Chat AWS",
@@ -261,8 +267,7 @@
         "ChatGpt"
       ],
       "url": null,
-      "github": null
+      "github": ""
     }
   ]
   }
-  
