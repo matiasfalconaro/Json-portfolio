@@ -36,7 +36,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   return {
     id: network,
     section: "Social",
-    title: `Visit ${network}`,
+    title: `Visitk ${network}`,
     url,
     icon,
     hotkey: `ctrl+${firstLetter}`,
@@ -172,7 +172,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
 
     #footer-button {
-      background: var(--background-color);
+      background: #fff;
       position: fixed;
       border: 1px solid #eee;
       right: 10px;
@@ -188,7 +188,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   footer {
-    background: var(--background-color);
+    background: #fdfdfd;
     border-top: 1px solid #eee;
     position: fixed;
     bottom: 0px;
@@ -205,13 +205,8 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation-range: entry 100% cover 10%;
   }
 
-  #normal-footer {
-    color: var(--text-color);
-  }
-
   kbd {
-    background: var(--kbd-bg-color);
-    color: var(--kbd-text-color); /* Ensure text color is set */
+    background: #eee;
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 12px;

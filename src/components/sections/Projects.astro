@@ -1,11 +1,11 @@
 ---
+import GitHub from "@/icons/GitHub.astro"
 import Section from "../section.astro"
 
 import { projects } from "@cv"
 ---
 
-<Section>
-  <h2>Projects</h2>
+<Section title="Projects">
   <ul>
     {
       projects.map(
@@ -26,6 +26,7 @@ import { projects } from "@cv"
                         target="_blank"
                         title={`See project's source code  ${name}`}
                       >
+                        <GitHub />
                       </a>
                     )}
                   </h3>
@@ -71,18 +72,12 @@ import { projects } from "@cv"
     flex: 1;
   }
 
-  h2 {
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--h2-color);
-  }
-
   article h3 {
     margin-bottom: 4px;
   }
 
   article a {
-    color: var(--project-a-color);
+    color: #111;
   }
 
   article a:hover {
@@ -108,9 +103,9 @@ import { projects } from "@cv"
 
   footer span {
     border-radius: 6px;
-    background: var(--footer-span-bg-color);
-    color: var(--footer-span-text-color);
-    font-size: 0.7rem;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
