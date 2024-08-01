@@ -6,7 +6,7 @@
     "email": "matiasfalconaro@gmail.com",
     "phone": "54 9 (011) 15-3271-1841",
     "url": "https://www.mfalconaro.dev",
-    "summary": "As a software developer I am specialized on cloud backend solutions, I currently thrive in creating corporate size applications for large enterprises. Based in an ever-evolving tech landscape, my career has spanned from optimizing SAP systems to pioneering cloud pipelines integrations between different platforms.",
+    "summary": "As a dedicated software developer, I am driven by the excitement of understanding and defining business requirements to create meaningful and impactful solutions. Analyzing processes, identifying needs, and developing strategies that not only solve business problems but also bring value and efficiency is at the core of my work. Some of my soft skills are being analytical, adaptable, collaborative, and committed. I also enjoy spending time with my family and friends, cycling, and swimming.",
     "location": {
       "address": "Street 123",
       "postalCode": "B1842EJJ",
@@ -33,7 +33,7 @@
       "url": "https://www.baitcon.com/",
       "startDate": "2022-12-01",
       "endDate": null,
-      "summary": "Developed data management applications on the SAP cloud landscape. Integrated DevOps, enhancing the efficiency of applications.",
+      "summary": "Designed database schemas using ER diagrams, DDL, and SQL for efficient data storage and retrieval, and developed ETL processes to centralize data from various sources. Built RESTful APIs, integrated AI APIs and MMLs, ensured data security, and collaborated with data analysts, while managing data pipelines, backup strategies, and CI/CD pipelines for backend services.",
       "highlights": [
         "Corporate software, automation and pipelining factory"
         ]
@@ -44,18 +44,18 @@
       "url": null,
       "startDate": "2018-12-01",
       "endDate": "2023-12-01",
-      "summary": "Developed and maintained web pages, focusing on enterprises. Leveraged Python for backend development and Flask framework for web application interfaces.",
+      "summary": "Developed and maintained web pages, including landing pages and e-commerce sites, focusing on enterprise clients. Leveraged Python for backend development and the Flask framework for web application interfaces.",
       "highlights": [
         "Commercial landing pages development, deployment, hosting, maintenance and improvement"
         ]
     },
     {
       "name": "Pilcomayo SRL",
-      "position": "Systems Manager",
+      "position": "IT Support",
       "url": "https://b2argentina.com.ar/hotsite/pilcomayosrl/details",
       "startDate": "2015-01-01",
       "endDate": "2022-02-01",
-      "summary": "Create business solutions designed for senior executives and directors. Optimized stock and production management systems.",
+      "summary": "Managed and maintained the company's IT infrastructure, including servers, networks, and workstations, ensuring performance, uptime, and secure connectivity through the configuration of routers, switches, firewalls, and VPNs. Provided technical support to employees, handled software installations and updates, managed user accounts and data backup solutions, enforced IT security policies, and coordinated with vendors for hardware and software procurement.",
       "highlights": [
         "Systems maintenance, update and implementation"
         ]
@@ -66,7 +66,7 @@
     "url": "https://www.etexgroup.com/es-ar/",
     "startDate": "2013-11-01",
     "endDate": "2014-12-01",
-    "summary": "Assisted SAP PM Module implementation in Laboratory. Streamlined configuration and resource allocation processes.",
+    "summary": "Configured technical locations and maintenance plans in SAP to support asset management, ensuring efficient scheduling and execution of preventive maintenance tasks. Managed work orders, purchase requests, and equipment master data, while providing user training and support on SAP maintenance functionalities.",
     "highlights": [
       "Started the SAP PM module implementation."
       ]
@@ -76,16 +76,25 @@
     {
       "institution": "UP - Universidad de Palermo",
       "url": "https://up.edu.ar/es/",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor Degree",
+      "area": "BSc Computer engineering",
+      "studyType": "Bachelor of Science Degree",
       "startDate": "2023-03-01",
-      "endDate": null,
+      "endDate": "2029-12-01",
+      "score": null
+    },
+    {
+      "institution": "UP - Universidad de Palermo",
+      "url": "https://up.edu.ar/es/",
+      "area": "ASc Computer science",
+      "studyType": "Associate of Science Degree",
+      "startDate": "2023-03-01",
+      "endDate": "2026-12-01",
       "score": null
     },
     {
     "institution": "UTN - Universidad Tecnologica Nacional",
     "url": "https://utn.edu.ar/es/",
-    "area": "Python Development",
+    "area": "Python development diploma",
     "studyType": "Diploma",
     "startDate": "2023-10-01",
     "endDate": "2024-06-01",
@@ -110,7 +119,8 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "React"
+        "React",
+        "Bootstrap"
       ]
     },
     {
@@ -119,7 +129,10 @@
       "keywords": [
         "Python",
         "SQLAlchemy",
-        "Flask"
+        "Flask",
+        "Pandas",
+        "TDD",
+        "pETL"
       ]
     },
     {
@@ -129,7 +142,8 @@
         "PostgreSQL",
         "MongoDB",
         "SQLite3",
-        "SAP HANA"
+        "SAP HANA Cloud",
+        "SAP S/4 Hana"
       ]
     },
     {
@@ -150,6 +164,36 @@
         "SAP BTP",
         "Docker",
         "CloudFoundry"
+      ]
+    },
+    {
+      "name": "AI and Machine Learning",
+      "level": "Intermediate",
+      "keywords": [
+        "Open AI API",
+        "Ollama",
+        "Llama 2",
+        "nomic-embed-text",
+        "LangChain",
+        "GPT-4 Turbo",
+        "GPT-3.5 Turbo"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "Intermediate",
+      "keywords": [
+        "Scrum",
+        "Kaban"
+      ]
+    },
+    {
+      "name": "Data Analysis and Reporting",
+      "level": "Intermediate",
+      "keywords": [
+        "MS Excel",
+        "SAP Analytics Cloud",
+        "Tableu"
       ]
     }
   ],
